@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist",
+    "declarationDir": "./dist",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es2019"
+    ],
+    "typeRoots": [
+      "."
+    ],
+    "declaration": true,
+    "target": "es5",
+    "removeComments": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "inlineSources": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "incremental": true,
+    "emitDecoratorMetadata": true,
+    "watch": true,
+    "types": [
+      "node",
+      "mocha",
+      "jest"
+    ],
+    "baseUrl": "."
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.*"
+  ]
+}
